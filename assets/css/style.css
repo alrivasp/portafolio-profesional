@@ -1,0 +1,222 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+:root {
+    --color-morado: #660066;
+}
+
+/* Common */
+.bg-purple {
+    background: var(--color-morado);   
+}
+
+/* NavBar */
+.navbar-title {
+    font-weight: 700;
+}
+
+.navbar-toggler{
+    border-color: #777777 !important;    
+}
+
+/* Section Uno bg-hero */
+.s-uno-bg-hero {
+    background-image: url('../img/bg_hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 55% 90%;
+    padding-top: 375px;   
+    padding-bottom: 20px;       
+    margin-top: 72px;
+    background-attachment: fixed;
+}
+
+.s-uno-title-one{
+    font-size: 40px;
+    font-weight: 200;     
+}
+
+.s-uno-title-two{
+    font-size:40px;
+    font-weight: 700;    
+    border-top: 2px solid #FFFFFF ;   
+    
+}
+
+/* Section Dos Sobre Mi */
+
+
+/* Section Tres Experiancia */
+.s-tres-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #373A3C;
+    margin-top: 30px;    
+}
+
+.s-tres-title-line{
+    border-bottom: 2px solid #373A3C ; 
+}
+
+.s-tres-logo{
+    width: 150px;    
+}
+
+.s-tres-subtitle{
+    font-size: 25px;
+    font-weight: 700;
+    color: #373A3C;
+    letter-spacing: 0.5px;
+}
+
+.s-tres-years{
+    font-size: 25px;
+    font-weight: 200; 
+    color: #373A3C;
+    letter-spacing: 0.5px;
+}
+
+    /* Modales */
+    /* Modal Uno */
+    .modal-logo{
+        width: 80px;
+    }
+
+    .modal-year{
+        font-weight: 100;
+    }
+
+    .modal-ul{
+        font-size: 14px;
+        font-weight: 300;
+    }
+/* Section Cuatro Ultimos Trabajos*/
+.s-cuatro-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.s-cuatro-title-line{
+    border-bottom: 2px solid #FFFFFF ; 
+}
+.card{
+     width: 15.375em;     
+}
+
+.card-text {
+    display: -webkit-box;
+    display: box;
+    box-orient: vertical;
+    -webkit-box-orient: vertical;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    overflow-y: hidden;
+}
+
+.card-title{
+    font-size: 17px;
+    font-weight: 500;
+    color: #373A3C;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #373A3C;
+}
+
+/* Section Cinco Contacto */
+.s-cinco-title{
+    color: #373A3C;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.s-cinco-title-line{
+    border-bottom: 2px solid #373A3C ; 
+}
+
+/* Footer */
+.footer-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* Vista Small */
+@media (min-width: 576px){
+    /* Common */
+
+    /* NavBar */
+
+    /* Section Uno bg-hero */
+
+    /* Section Dos Sobre Mi */
+
+    /* Section Tres Experiancia */
+
+    /* Section Cuatro Ultimos Trabajos*/
+
+    /* Section Cinco Contacto */
+
+    /* Footer */
+}
+
+/* Vista Medium */
+@media (min-width: 768px){
+    /* Common */
+
+    /* NavBar */
+
+    /* Section Uno bg-hero */
+
+    /* Section Dos Sobre Mi */
+
+    /* Section Tres Experiancia */
+
+    /* Section Cuatro Ultimos Trabajos*/
+
+    /* Section Cinco Contacto */
+
+    /* Footer */
+}
+
+/* Vista large */
+@media (min-width: 992px){
+    /* Common */
+
+    /* NavBar */
+
+    /* Section Uno bg-hero */
+
+    /* Section Dos Sobre Mi */
+
+    /* Section Tres Experiancia */
+
+    /* Section Cuatro Ultimos Trabajos*/
+
+    /* Section Cinco Contacto */
+
+    /* Footer */
+}
+
+/* Vista Extra Large */
+@media (min-width: 1200px){
+    /* Common */
+
+    /* NavBar */
+
+    /* Section Uno bg-hero */
+
+    /* Section Dos Sobre Mi */
+
+    /* Section Tres Experiancia */
+
+    /* Section Cuatro Ultimos Trabajos*/
+
+    /* Section Cinco Contacto */
+
+    /* Footer */
+}
