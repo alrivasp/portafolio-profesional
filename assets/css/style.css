@@ -57,10 +57,16 @@ body {
 
 .s-tres-title-line{
     border-bottom: 2px solid #373A3C ; 
+    width: 85px;
+    display: inline-block;
 }
 
 .s-tres-logo{
     width: 150px;    
+}
+
+.s-tres-logo-abcdin{
+    width: 170px;
 }
 
 .s-tres-subtitle{
@@ -77,8 +83,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-    /* Modales */
-    /* Modal Uno */
+    /* Modales */    
     .modal-logo{
         width: 80px;
     }
@@ -100,6 +105,8 @@ body {
 
 .s-cuatro-title-line{
     border-bottom: 2px solid #FFFFFF ; 
+    width: 85px;
+    display: inline-block;
 }
 .card{
      width: 15.375em;     
@@ -136,9 +143,16 @@ body {
 
 .s-cinco-title-line{
     border-bottom: 2px solid #373A3C ; 
+    width: 85px;
+    display: inline-block;
 }
 
 /* Footer */
+.footer-container{
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+
 .footer-title{
     font-size: 30px;
     font-weight: 700;
@@ -173,14 +187,42 @@ body {
     /* Section Uno bg-hero */
 
     /* Section Dos Sobre Mi */
+    .s-dos-description{
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #373A3C;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 16px;
+    }
+    
+    .s-dos-presentation{
+        font-size: 14px;
+        font-weight: 400;
+        color: #373A3C;
+        letter-spacing: 0.16px;
+        line-height: 40px;
+    }
 
     /* Section Tres Experiancia */
+    .s-tres-logo{
+        width: 60px;
+    }
+
+    .s-tres-logo-abcdin{
+        width: 90px;
+    }
 
     /* Section Cuatro Ultimos Trabajos*/
 
     /* Section Cinco Contacto */
 
     /* Footer */
+    .footer-container{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 /* Vista large */
