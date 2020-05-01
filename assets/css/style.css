@@ -28,8 +28,7 @@ body {
     background-position: 55% 90%;
     padding-top: 375px;   
     padding-bottom: 20px;       
-    margin-top: 72px;
-    background-attachment: fixed;
+    margin-top: 72px;      
 }
 
 .s-uno-title-one{
@@ -211,7 +210,9 @@ body {
     }
 
     .s-tres-logo-abcdin{
-        width: 90px;
+        width: 100px;
+        margin-top: 13px;
+        margin-bottom: 17.46px;
     }
 
     /* Section Cuatro Ultimos Trabajos*/
@@ -232,10 +233,35 @@ body {
     /* NavBar */
 
     /* Section Uno bg-hero */
+    .s-uno-bg-hero {        
+        background-position: 70% 100%;
+        background-size: auto;        
+        padding-top: 425px;  
+    }
 
+    .s-uno-title-one{
+        font-size: 72px;
+    }
+
+    .s-uno-title-two{
+        font-size: 72px;
+    }
     /* Section Dos Sobre Mi */
+    .s-dos-description{
+        font-size: 25px;
+    }
 
+    .s-dos-presentation{
+        font-size: 16px;
+    }
     /* Section Tres Experiancia */
+    .s-tres-title{
+        font-size: 52px;
+    }
+
+    .s-tres-title-line{
+        width: 120px;
+    }
 
     /* Section Cuatro Ultimos Trabajos*/
 
