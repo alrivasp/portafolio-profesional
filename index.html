@@ -38,7 +38,7 @@
     <div class="container-fluid bg-purple fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
-                <h1 class="text-white navbar-title">A</h1>
+                <a href="#hero"><h1 class="text-white navbar-title">A</h1></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,16 +46,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Sobre Mi</a>
+                            <a class="nav-link" href="#sobre_mi">Sobre Mi</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Experiencia</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#experiencia">Experiencia</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Trabajo</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#trabajos">Trabajos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +65,7 @@
     <!-- Fin NavBar -->
 
     <!-- Inicio Section Uno bg-hero -->
-    <section class="container-fluid s-uno-bg-hero text-white">
+    <section id="hero" class="container-fluid s-uno-bg-hero text-white">
         <div class="row justify-content-around s-uno-container">
             <div class="col-12 text-center pb-2">
                 <h1 class="s-uno-title-one ">YO SOY</h1>
@@ -78,7 +78,7 @@
     <!-- Fin Section Uno bg-hero -->
 
     <!-- Inicio Section Dos Sobre Mi -->
-    <section class="container d-none d-md-block">
+    <section id="sobre_mi" class="container d-none d-md-block">
         <div>
             <p class="s-dos-description">Como recién graduado de Ingenieria en Informatica, me encantaría poder entrar a
                 formar parte de una empresa
@@ -117,7 +117,7 @@
                     continuidad operacional participando y gestionando Proyectos entre otras tareas,  espero que recorran mi portafolio y conozcan más acerca de mí, saludos cordiales.</p>
             </div>
             <div class="col-12 text-center pt-lg-5 pb-3">
-                <img src="assets/img/alrivas_firma.jpg" alt="firma">
+                <img src="assets/img/alrivas_firma.jpg" alt="firma" data-toggle="tooltip" data-placement="top" title="Firma Alvaro Rivas">
             </div>
         </div>
     </section>
@@ -125,6 +125,8 @@
 
 
     <!-- Inicio Section tres Experiencia  valido para vista LG y XL -->
+    <div id="experiencia">
+    <!-- Inicio  valido para vista LG y XL -->
     <section class="container py-3 mb-lg-5 mt-lg-3">
         <div>
             <h2 class="s-tres-title text-center">MI EXPERIENCIA</h2>
@@ -155,7 +157,7 @@
                                         <h4 class="s-tres-subtitle">Programador Freelance</h4>
                                         <h4 class="s-tres-years">2020 - Actualidad</h4>
                                         <button type="button" class="btn btn-secondary btn-sm px-3 " data-toggle="modal"
-                                            data-target="#detalle-cuatro">Detalle</button>
+                                            data-target="#detalle-cuatro" >Detalle</button>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -203,16 +205,10 @@
         </div>
         <!-- Fin Carrusel -->
     </section>
-    <!-- Fin Section tres Experiencia  valido para vista LG y XL -->
+    <!-- Fin valido para vista LG y XL -->
 
-    <!-- Inicio Section tres Experiencia valido vista XS S y MD -->
+    <!-- Inicio valido vista XS S y MD -->
     <section class="container d-lg-none d-xl-none pt-3 pb-md-3">
-        <div>
-            <h2 class="s-tres-title text-center">MI EXPERIENCIA</h2>
-        </div>
-        <div class="text-center pt-3 pt-md-3">
-            <p class="s-tres-title-line "></p>
-        </div>
         <div class="row justify-content-center pt-3">
             <div class="col-12 col-md-6 mb-5">
                 <div class="text-center">
@@ -377,10 +373,11 @@
         </div>
     </div>
     <!-- Fin Modales -->
+    </div>
     <!-- Fin Section tres Experiencia -->
 
     <!-- Inicio Section cuatro Ultimos Trabajos -->
-    <section class="container-fluid bg-purple pt-3">
+    <section id="trabajos" class="container-fluid bg-purple pt-3">
         <div class="container">
             <div class="pt-5">
                 <div>
@@ -403,7 +400,7 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/meet-coffee/" target="_blank"
-                                    class="btn btn-primary px-4">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo HTML + CSS">VER</a>
                             </div>
                         </div>
                     </div>
@@ -420,7 +417,7 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/iguana-page/" target="_blank"
-                                    class="btn btn-primary px-4">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo HTML + CSS">VER</a>
                             </div>
                         </div>
                     </div>
@@ -437,7 +434,7 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/suricata/" target="_blank"
-                                    class="btn btn-primary px-4">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo Bootstrap">VER</a>
                             </div>
                         </div>
                     </div>
@@ -454,7 +451,7 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/cuppon/" target="_blank"
-                                    class="btn btn-primary px-4">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo Bootstrap">VER</a>
                             </div>
                         </div>
                     </div>
@@ -471,7 +468,7 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/ricomida/" target="_blank"
-                                    class="btn btn-primary px-4">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo JavaScript">VER</a>
                             </div>
                         </div>
                     </div>
@@ -486,8 +483,10 @@
                                 scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan
                                 donec
                                 ridiculus.</p>
-                            <div class="text-center">
-                                <button type="button" target="_blank" class="btn btn-primary px-4" disabled>VER</button>
+                            <div class="text-center">                               
+                                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="bottom" title="Proyecto en Desarrollo">
+                                    <button class="btn btn-primary px-4" style="pointer-events: none;" type="button" disabled>VER</button>
+                                  </span>
                             </div>
                         </div>
                     </div>
@@ -498,7 +497,7 @@
     <!-- Fin Section cuatro Ultimos Trabajos -->
 
     <!-- Inicio Section cinco Contacto -->
-    <section class="container mt-5 mb-5">
+    <section id="contacto" class="container mt-5 mb-5">
         <div>
             <p class="s-cinco-title text-center">CONTACTO</p>
         </div>
@@ -539,17 +538,17 @@
         <div class="container">
             <div class="row justify-content-around ">
                 <div class="col-12 col-sm-12 col-md-6">
-                    <p class="footer-title text-center text-sm-">ALVARO</p>
+                    <a href="#hero"><p class="footer-title text-center text-sm-">ALVARO</p></a>
                 </div>
                 <div class="col-auto col-sm-auto col-md-6">
                     <a href="https://github.com/alrivasp" target="_blank"><i
-                            class="fab fa-github-square fa-3x rounded-lg text-white size-icon"></i></a>
-                    <a href="https://www.linkedin.com/in/alrivasp/" target="_blank"><i
+                            class="fab fa-github-square fa-3x rounded-lg text-white size-icon" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i></a>
+                    <a href="https://www.linkedin.com/in/alrivasp/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinKedin"><i
                             class="fab fa-linkedin fa-3x rounded-lg ml-3 text-white size-icon"></i></a>
                     <a href="https://twitter.com/AlvaroRivasP" target="_blank"><i
-                            class="fab fa-twitter-square fa-3x rounded-lg mx-3 text-white size-icon"></i></a>
+                            class="fab fa-twitter-square fa-3x rounded-lg mx-3 text-white size-icon" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i></a>
                     <a  href="https://www.facebook.com/alvaro.rivas.p"  target="_blank"><i 
-                            class="fab fa-facebook-square fa-3x rounded-lg text-white size-icon"></i></a>
+                            class="fab fa-facebook-square fa-3x rounded-lg text-white size-icon" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a>
                 </div>
             </div>
         </div>

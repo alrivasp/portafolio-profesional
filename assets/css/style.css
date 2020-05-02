@@ -11,6 +11,20 @@ body {
     background: var(--color-morado);   
 }
 
+/* ToolTip */
+.tooltip-inner {
+    background-color: #343A40;
+    font-size: 12px !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #343A40 !important;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #343A40 !important;
+}
+
 /* NavBar */
 .navbar-title {
     font-weight: 700;
