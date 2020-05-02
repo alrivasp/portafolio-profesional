@@ -38,7 +38,9 @@
     <div class="container-fluid bg-purple fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
-                <a href="#hero"><h1 class="text-white navbar-title">A</h1></a>
+                <a href="#hero">
+                    <h1 class="text-white navbar-title">A</h1>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -49,7 +51,10 @@
                             <a class="nav-link" href="#sobre_mi">Sobre Mi</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#experiencia">Experiencia</a>
+                            <a class="nav-link" href="#estudio">Estudios</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#laboral">Experiencia</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#trabajos">Trabajos</a>
@@ -65,7 +70,7 @@
     <!-- Fin NavBar -->
 
     <!-- Inicio Section Uno bg-hero -->
-    <section id="hero" class="container-fluid s-uno-bg-hero text-white">
+    <section id="hero" class="container-fluid img-fluid s-uno-bg-hero text-white">
         <div class="row justify-content-around s-uno-container">
             <div class="col-12 text-center pb-2">
                 <h1 class="s-uno-title-one ">YO SOY</h1>
@@ -77,19 +82,23 @@
     </section>
     <!-- Fin Section Uno bg-hero -->
 
+
     <!-- Inicio Section Dos Sobre Mi -->
     <section id="sobre_mi" class="container d-none d-md-block">
-        <div>
-            <p class="s-dos-description">Como recién graduado de Ingenieria en Informatica, me encantaría poder entrar a
-                formar parte de una empresa
-                en donde pueda aplicar todos mis conocimientos y, al mismo tiempo, que me permita desarrollarme
-                profesionalmente.</p>
+        <div class="media">
+            <img src="assets/img/perfil.jpg" class="align-self-center rounded-circle mr-3" alt="perfil alrivas">
+            <div class="media-body">
+                <p class="s-dos-description">Como recién graduado de Ingenieria en Informatica, me encantaría poder
+                    entrar a
+                    formar parte de una empresa en donde pueda aplicar todos mis conocimientos y, al mismo tiempo, que
+                    me permita desarrollarme profesionalmente.</p>
+            </div>
         </div>
         <div class="text-center">
             <p class="s-tres-title-line "></p>
         </div>
-        <div class="row pt-4 pb-4">
-            <div class="col-6">
+        <div class="row pt-4 pb-4 shadow-lg p-3 mb-5 bg-white rounded">
+            <div class="col-6 pt-5">
                 <p class="s-dos-presentation">Estimados me da gusto poder saludarles <br> Mi Nombre es <b>Alvaro
                         Rivas</b>. Me
                     presento a ustedes, al termino del año 2019 concluí mis estudios de ingeniería en Informática en el
@@ -104,7 +113,7 @@
                     Destaca mi capacidad para adaptarme al equipo de trabajo y mi rápido
                     aprendizaje; atributos que considero son ideales en los grupos de trabajo.</p>
             </div>
-            <div class="col-6">
+            <div class="col-6 pt-5">
                 <p class="s-dos-presentation"><br> Así mismo me considero empático y observador: igualmente cualidades
                     esenciales para las áreas TIC.
                     <br>A lo largo de mi estancia en DUOC UC he podido desarrollar habilidades y
@@ -114,87 +123,231 @@
                     como
                     profesional en distintos rubros principalmente en el Retail y también en Banca, Prensa y empresas de
                     servicios. Las áreas donde me he desarrollado han sido tanto en Tecnología como en Soporte y
-                    continuidad operacional participando y gestionando Proyectos entre otras tareas,  espero que recorran mi portafolio y conozcan más acerca de mí, saludos cordiales.</p>
+                    continuidad operacional participando y gestionando Proyectos entre otras tareas, espero que recorran
+                    mi portafolio y conozcan más acerca de mí, saludos cordiales.</p>
             </div>
             <div class="col-12 text-center pt-lg-5 pb-3">
-                <img src="assets/img/alrivas_firma.jpg" alt="firma" data-toggle="tooltip" data-placement="top" title="Firma Alvaro Rivas">
+                <img src="assets/img/alrivas_firma.jpg" alt="firma" data-toggle="tooltip" data-placement="top"
+                    title="Firma Alvaro Rivas">
+                <h5 class="text-center"><u> ALVARO LUIS RIVAS PIÑA </u></h5>
             </div>
         </div>
     </section>
     <!-- Fin Section Dos Sobre Mi -->
 
 
+
     <!-- Inicio Section tres Experiencia  valido para vista LG y XL -->
-    <div id="experiencia">
-    <!-- Inicio  valido para vista LG y XL -->
-    <section class="container py-3 mb-lg-5 mt-lg-3">
+    <section >
+        <!-- Inicio Experiencia Academica -->
+        <section id="estudio" class="container mb-5 my-3 pt-3">
         <div>
-            <h2 class="s-tres-title text-center">MI EXPERIENCIA</h2>
+            <h2 class="s-tres-title text-center">MIS ESTUDIOS</h2>
         </div>
         <div class="text-center pt-3 pt-md-3">
             <p class="s-tres-title-line "></p>
         </div>
-        <!-- Inicio Carrusel -->
-        <div class="row d-none d-lg-block mt-5 px-2  ">
-            <!-- columna -->
-            <div class="col-lg-12 ">
-                <!-- Carrusel -->
-                <div id="recetasCarrusel" class="carousel slide corusel-border pb-5" data-ride="carousel">
-                    <!-- Secciones carrusel -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#recetasCarrusel" data-slide-to="0" class="active"></li>
-                        <li data-target="#recetasCarrusel" data-slide-to="1"></li>
-                    </ol>
-                    <!-- Detalle secciones -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="text-center">
-                                        <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas" class="s-tres-logo mb-3">
+        <div class="accordion rounded" id="accordionExample">
+            <div class="">
+                <div class="card-header bg-purple text-center " id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="text-decoration-none bg-purple text-white h4 border-0" type="button"
+                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            EDUCACION BASICA
+                        </button>
+
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        <img src="assets/img/colegio_logo.png" alt="logo colegio"
+                            class="s-tres-logo-colegio mx-4 d-inline">
+                        <p class="d-md-inline">Educacion Basica completa Escuela D-471 territorio Antartico - San
+                            Miguel | Santiago de
+                            Chile.-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card-header bg-purple text-center " id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="text-decoration-none bg-purple text-white h4 border-0" type="button"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            EDUCACION MEDIA
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        <img src="assets/img/liceo_logo.png" alt="logo liceo" class="s-tres-logo-colegio mx-4 d-inline">
+                        <p class="d-md-inline">Educacion Media completa Liceo Politecnico Ciencia y Tecnologia
+                            especialidad de <b>Telecomunicaciones</b> - La Cisterna | Santiago de Chile.-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card-header bg-purple text-center " id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="text-decoration-none bg-purple text-white h4 border-0" type="button"
+                            data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            EDUCACION SUPERIOR
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        <img src="assets/img/duoc_logo.jpg" alt="logo liceo" class="s-tres-logo-duoc mx-4 d-inline">
+                        <p class="d-md-inline">Educacion Superior completa Instituto Profesional DUOC - UC
+                            <br>Carrera de <b>Ingenieria en Informatica</b>, Titulo obtenido <u><b>INGENIERO EN
+                                    INFORMATICA</b></u> | Santiago de Chile.-</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="card-header bg-purple text-center " id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="text-decoration-none bg-purple text-white h4 border-0" type="button"
+                            data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            ESPECIALIZACION
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body text-center ">
+                        <img src="assets/img/desafio_logo.png" alt="logo desafio latam_"
+                            class="s-tres-logo-duoc mx-4 d-inline">
+                        <p class="d-md-inline">Especializacion de carrera Full Stack <b>Cursando...</b> Academia
+                            Tecnologica Desafio Latam Especializacion Ruby on Rails | Santiago de Chile.-</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="card-header bg-purple text-center " id="headingFive">
+                    <h2 class="mb-0">
+                        <button class="text-decoration-none bg-purple text-white h4 border-0" type="button"
+                            data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                            aria-controls="collapseFive">
+                            OTROS
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body shadow-sm p-3 mb-5 bg-white rounded">
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-auto col-md-2 ">
+                                <img src="assets/img/google_logo.png" alt="logo desafio latam_"
+                                    class="s-tres-logo-google mx-4 d-inline">
+                            </div>
+                            <div class="col-auto col-md-auto">
+                                <ul class="text-left">
+                                    <li>Certificacion | Google Cloud Computing | 40 horas cursadas.</li>
+                                    <li>Certificacion | Google Competencias Digitales para Profesionales | 40 horas
+                                        cursadas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-auto col-md-2 ">
+                                <img src="assets/img/sence_logo.png" alt="logo desafio latam_"
+                                    class="s-tres-logo-sence mx-4 d-inline ">
+                            </div>
+                            <div class="col-auto col-md-auto">
+                                <ul class="text-left">
+                                    <li>Certificacion | Google Desarrollador de Aplicaciones en la Nube | 70 horas
+                                        cursadas.</li>
+                                    <li>Certificacion | Google Visualizador de Big Data | 60 horas cursadas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Experiencia Academica -->
+
+    <!-- Inicio Experiencia Laboral valido para vista LG y XL -->
+    <section id="laboral">
+        <section class="container py-3 mb-lg-5 mt-lg-3">
+            <div>
+                <h2 class="s-tres-title text-center">MI EXPERIENCIA</h2>
+            </div>
+            <div class="text-center pt-3 pt-md-3">
+                <p class="s-tres-title-line "></p>
+            </div>
+            <!-- Inicio Carrusel -->
+            <div class="row d-none d-lg-block mt-5 px-2  ">
+                <!-- columna -->
+                <div class="col-lg-12 ">
+                    <!-- Carrusel -->
+                    <div id="recetasCarrusel" class="carousel slide corusel-border pb-5" data-ride="carousel">
+                        <!-- Secciones carrusel -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#recetasCarrusel" data-slide-to="0" class="active"></li>
+                            <li data-target="#recetasCarrusel" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Detalle secciones -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="text-center">
+                                            <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas"
+                                                class="s-tres-logo mb-3">
+                                        </div>
+                                        <div class="text-center">
+                                            <h4 class="s-tres-subtitle">Programador Freelance</h4>
+                                            <h4 class="s-tres-years">2020 - Actualidad</h4>
+                                            <button type="button" class="btn btn-secondary btn-sm px-3 "
+                                                data-toggle="modal" data-target="#detalle-cuatro">Detalle</button>
+                                        </div>
                                     </div>
-                                    <div class="text-center">
-                                        <h4 class="s-tres-subtitle">Programador Freelance</h4>
-                                        <h4 class="s-tres-years">2020 - Actualidad</h4>
-                                        <button type="button" class="btn btn-secondary btn-sm px-3 " data-toggle="modal"
-                                            data-target="#detalle-cuatro" >Detalle</button>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="text-center">
-                                        <img src="assets/img/entel_logo.png" alt="Logo entel" class="s-tres-logo-entel mb-3 mt-1">
-                                    </div>
-                                    <div class="text-center">
-                                        <h4 class="s-tres-subtitle text-center">Tecnico Especialista N2</h4>
-                                        <h4 class="s-tres-years text-center">2012 - 2019</h4>
-                                        <button type="button" class="btn btn-secondary btn-sm px-3" data-toggle="modal"
-                                            data-target="#detalle-tres">Detalle</button>
+                                    <div class="col-lg-6">
+                                        <div class="text-center">
+                                            <img src="assets/img/entel_logo.png" alt="Logo entel"
+                                                class="s-tres-logo-entel mb-3 mt-1">
+                                        </div>
+                                        <div class="text-center">
+                                            <h4 class="s-tres-subtitle text-center">Tecnico Especialista N2</h4>
+                                            <h4 class="s-tres-years text-center">2012 - 2019</h4>
+                                            <button type="button" class="btn btn-secondary btn-sm px-3"
+                                                data-toggle="modal" data-target="#detalle-tres">Detalle</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="text-center">
-                                        <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas" class="s-tres-logo mb-3">
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="text-center">
+                                            <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas"
+                                                class="s-tres-logo mb-3">
+                                        </div>
+                                        <div class="text-center">
+                                            <h4 class="s-tres-subtitle">Consultor TI</h4>
+                                            <h4 class="s-tres-years">2009 - 2011</h4>
+                                            <button type="button" class="btn btn-secondary btn-sm px-3"
+                                                data-toggle="modal" data-target="#detalle-dos">Detalle</button>
+                                        </div>
                                     </div>
-                                    <div class="text-center">
-                                        <h4 class="s-tres-subtitle">Consultor TI</h4>
-                                        <h4 class="s-tres-years">2009 - 2011</h4>
-                                        <button type="button" class="btn btn-secondary btn-sm px-3" data-toggle="modal"
-                                            data-target="#detalle-dos">Detalle</button>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-center">
-                                        <img src="assets/img/abcdin_logo.png" alt="Logo entel" class="s-tres-logo-abcdin">
-                                    </div>
-                                    <div class="text-center">
-                                        <h4 class="s-tres-subtitle text-center">Administrador de Servidores</h4>
-                                        <h4 class="s-tres-years text-center">2006 - 2008</h4>
-                                        <button type="button" class="btn btn-secondary btn-sm px-3 " data-toggle="modal"
-                                            data-target="#detalle-uno">Detalle</button>
+                                    <div class="col-md-6">
+                                        <div class="text-center">
+                                            <img src="assets/img/abcdin_logo.png" alt="Logo entel"
+                                                class="s-tres-logo-abcdin">
+                                        </div>
+                                        <div class="text-center">
+                                            <h4 class="s-tres-subtitle text-center">Administrador de Servidores</h4>
+                                            <h4 class="s-tres-years text-center">2006 - 2008</h4>
+                                            <button type="button" class="btn btn-secondary btn-sm px-3 "
+                                                data-toggle="modal" data-target="#detalle-uno">Detalle</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -202,60 +355,61 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Fin Carrusel -->
-    </section>
-    <!-- Fin valido para vista LG y XL -->
+            <!-- Fin Carrusel -->
+        </section>
+        <!-- Fin valido para vista LG y XL -->
 
-    <!-- Inicio valido vista XS S y MD -->
-    <section class="container d-lg-none d-xl-none pt-3 pb-md-3">
-        <div class="row justify-content-center pt-3">
-            <div class="col-12 col-md-6 mb-5">
-                <div class="text-center">
-                    <img src="assets/img/abcdin_logo.png" alt="Logo entel" class="s-tres-logo-abcdin">
+        <!-- Inicio valido vista XS S y MD -->
+        <section class="container d-lg-none d-xl-none pt-3 pb-md-3">
+            <div class="row justify-content-center pt-3">
+                <div class="col-12 col-md-6 mb-5">
+                    <div class="text-center">
+                        <img src="assets/img/abcdin_logo.png" alt="Logo entel" class="s-tres-logo-abcdin">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="s-tres-subtitle text-center">Administrador de Servidores</h4>
+                        <h4 class="s-tres-years text-center">2006 - 2008</h4>
+                        <button type="button" class="btn btn-secondary btn-sm px-3 " data-toggle="modal"
+                            data-target="#detalle-uno">Detalle</button>
+                    </div>
                 </div>
-                <div class="text-center">
-                    <h4 class="s-tres-subtitle text-center">Administrador de Servidores</h4>
-                    <h4 class="s-tres-years text-center">2006 - 2008</h4>
-                    <button type="button" class="btn btn-secondary btn-sm px-3 " data-toggle="modal"
-                        data-target="#detalle-uno">Detalle</button>
+                <div class="col-12 col-md-6 mb-5 ">
+                    <div class="text-center">
+                        <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas" class="s-tres-logo mb-3">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="s-tres-subtitle">Consultor TI</h4>
+                        <h4 class="s-tres-years">2009 - 2011</h4>
+                        <button type="button" class="btn btn-secondary btn-sm px-3" data-toggle="modal"
+                            data-target="#detalle-dos">Detalle</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-5">
+                    <div class="text-center">
+                        <img src="assets/img/entel_logo.png" alt="Logo entel" class="s-tres-logo mb-3 mt-1">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="s-tres-subtitle text-center">Tecnico Especialista N2</h4>
+                        <h4 class="s-tres-years text-center">2012 - 2019</h4>
+                        <button type="button" class="btn btn-secondary btn-sm px-3" data-toggle="modal"
+                            data-target="#detalle-tres">Detalle</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-5 ">
+                    <div class="text-center">
+                        <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas" class="s-tres-logo mb-3">
+                    </div>
+                    <div class="text-center">
+                        <h4 class="s-tres-subtitle">Programador Freelance</h4>
+                        <h4 class="s-tres-years">2020 - Actualidad</h4>
+                        <button type="button" class="btn btn-secondary btn-sm px-3 " data-toggle="modal"
+                            data-target="#detalle-cuatro">Detalle</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-5 ">
-                <div class="text-center">
-                    <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas" class="s-tres-logo mb-3">
-                </div>
-                <div class="text-center">
-                    <h4 class="s-tres-subtitle">Consultor TI</h4>
-                    <h4 class="s-tres-years">2009 - 2011</h4>
-                    <button type="button" class="btn btn-secondary btn-sm px-3" data-toggle="modal"
-                        data-target="#detalle-dos">Detalle</button>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mb-5">
-                <div class="text-center">
-                    <img src="assets/img/entel_logo.png" alt="Logo entel" class="s-tres-logo mb-3 mt-1">
-                </div>
-                <div class="text-center">
-                    <h4 class="s-tres-subtitle text-center">Tecnico Especialista N2</h4>
-                    <h4 class="s-tres-years text-center">2012 - 2019</h4>
-                    <button type="button" class="btn btn-secondary btn-sm px-3" data-toggle="modal"
-                        data-target="#detalle-tres">Detalle</button>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 mb-5 ">
-                <div class="text-center">
-                    <img src="assets/img/ar_logo.jpg" alt="Logo alvaro rivas" class="s-tres-logo mb-3">
-                </div>
-                <div class="text-center">
-                    <h4 class="s-tres-subtitle">Programador Freelance</h4>
-                    <h4 class="s-tres-years">2020 - Actualidad</h4>
-                    <button type="button" class="btn btn-secondary btn-sm px-3 " data-toggle="modal"
-                        data-target="#detalle-cuatro">Detalle</button>
-                </div>
-            </div>
-        </div>
+        </section>
     </section>
+    <!-- Fin Experiencia laboral -->
 
     <!-- Inicio Modales -->
     <!-- Modal Uno-->
@@ -332,7 +486,8 @@
                 <div class="modal-body">
                     <h6 class="text-center">ENTEL – SANTIAGO</h6>
                     <h6 class="text-center modal-year">2012 – 2019</h6>
-                    <p>Técnico Especialista en Soporte de Sistemas N2 a cargo de coordinar y dar continuidad operacional
+                    <p>Técnico Especialista en Soporte de Sistemas N2 a cargo de coordinar y dar continuidad
+                        operacional
                         a servicios de las empresas ABCDIN y DIJON del holding ADRetail.</p>
                 </div>
                 <div class="modal-footer">
@@ -358,7 +513,8 @@
                     <h6 class="text-center modal-year">2020 – Actualidad</h6>
                     <ol>
                         <li>
-                            <p>Proyecto Upgrade Seguridad / Servicios Corporativos S.A. <small>(Grupo Angelini)</small>
+                            <p>Proyecto Upgrade Seguridad / Servicios Corporativos S.A. <small>(Grupo
+                                    Angelini)</small>
                             </p>
                             <ul class="modal-ul">
                                 <li>Programación Backend Api`s Restful Java / jax-rs and jersey.</li>
@@ -373,7 +529,7 @@
         </div>
     </div>
     <!-- Fin Modales -->
-    </div>
+    </section>
     <!-- Fin Section tres Experiencia -->
 
     <!-- Inicio Section cuatro Ultimos Trabajos -->
@@ -400,7 +556,8 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/meet-coffee/" target="_blank"
-                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo HTML + CSS">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom"
+                                    title="Proyecto Desafio Latam_ Modulo HTML + CSS">VER</a>
                             </div>
                         </div>
                     </div>
@@ -417,7 +574,8 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/iguana-page/" target="_blank"
-                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo HTML + CSS">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom"
+                                    title="Proyecto Desafio Latam_ Modulo HTML + CSS">VER</a>
                             </div>
                         </div>
                     </div>
@@ -434,7 +592,8 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/suricata/" target="_blank"
-                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo Bootstrap">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom"
+                                    title="Proyecto Desafio Latam_ Modulo Bootstrap">VER</a>
                             </div>
                         </div>
                     </div>
@@ -443,7 +602,7 @@
                     <div class="card border-0 mb-5">
                         <img src="assets/img/cuppon.png" class="card-img-top m-0 p-0" alt="cuppon">
                         <div class="card-body">
-                            <h5 class="card-title">Cuppon</h5>
+                            <h5 class="card-title">Cuppon <span class="badge badge-secondary">Nuevo</span></h5>
                             <p class="card-text mb-4">Felis tincidunt vel risus lacus posuere dignissim habitasse
                                 sapien,
                                 scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan
@@ -451,7 +610,8 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/cuppon/" target="_blank"
-                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo Bootstrap">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom"
+                                    title="Proyecto Desafio Latam_ Modulo Bootstrap">VER</a>
                             </div>
                         </div>
                     </div>
@@ -460,7 +620,7 @@
                     <div class="card border-0 mb-5">
                         <img src="assets/img/ricomida.png" class="card-img-top m-0 p-0" alt="ricomida">
                         <div class="card-body">
-                            <h5 class="card-title">Ricomida</h5>
+                            <h5 class="card-title">Ricomida <span class="badge badge-secondary">Nuevo</span></h5>
                             <p class="card-text mb-4">Felis tincidunt vel risus lacus posuere dignissim habitasse
                                 sapien,
                                 scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan
@@ -468,7 +628,8 @@
                                 ridiculus.</p>
                             <div class="text-center">
                                 <a href="https://alrivasp.github.io/ricomida/" target="_blank"
-                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom" title="Proyecto Desafio Latam_ Modulo JavaScript">VER</a>
+                                    class="btn btn-primary px-4" data-toggle="tooltip" data-placement="bottom"
+                                    title="Proyecto Desafio Latam_ Modulo JavaScript">VER</a>
                             </div>
                         </div>
                     </div>
@@ -483,10 +644,12 @@
                                 scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan
                                 donec
                                 ridiculus.</p>
-                            <div class="text-center">                               
-                                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="bottom" title="Proyecto en Desarrollo">
-                                    <button class="btn btn-primary px-4" style="pointer-events: none;" type="button" disabled>VER</button>
-                                  </span>
+                            <div class="text-center">
+                                <span class="d-inline-block" tabindex="0" data-toggle="tooltip" data-placement="bottom"
+                                    title="Proyecto en Desarrollo">
+                                    <button class="btn btn-primary px-4" style="pointer-events: none;" type="button"
+                                        disabled>VER</button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -496,8 +659,9 @@
     </section>
     <!-- Fin Section cuatro Ultimos Trabajos -->
 
+
     <!-- Inicio Section cinco Contacto -->
-    <section id="contacto" class="container mt-5 mb-5">
+    <section id="contacto" class="container mt-5 mb-5 shadow p-3 mb-5 bg-white rounded">
         <div>
             <p class="s-cinco-title text-center">CONTACTO</p>
         </div>
@@ -538,17 +702,23 @@
         <div class="container">
             <div class="row justify-content-around ">
                 <div class="col-12 col-sm-12 col-md-6">
-                    <a href="#hero"><p class="footer-title text-center text-sm-">ALVARO</p></a>
+                    <a href="#hero">
+                        <p class="footer-title text-center text-sm-">ALVARO</p>
+                    </a>
                 </div>
                 <div class="col-auto col-sm-auto col-md-6">
                     <a href="https://github.com/alrivasp" target="_blank"><i
-                            class="fab fa-github-square fa-3x rounded-lg text-white size-icon" data-toggle="tooltip" data-placement="bottom" title="GitHub"></i></a>
-                    <a href="https://www.linkedin.com/in/alrivasp/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinKedin"><i
+                            class="fab fa-github-square fa-3x rounded-lg text-white size-icon" data-toggle="tooltip"
+                            data-placement="bottom" title="GitHub"></i></a>
+                    <a href="https://www.linkedin.com/in/alrivasp/" target="_blank" data-toggle="tooltip"
+                        data-placement="bottom" title="LinKedin"><i
                             class="fab fa-linkedin fa-3x rounded-lg ml-3 text-white size-icon"></i></a>
                     <a href="https://twitter.com/AlvaroRivasP" target="_blank"><i
-                            class="fab fa-twitter-square fa-3x rounded-lg mx-3 text-white size-icon" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i></a>
-                    <a  href="https://www.facebook.com/alvaro.rivas.p"  target="_blank"><i 
-                            class="fab fa-facebook-square fa-3x rounded-lg text-white size-icon" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a>
+                            class="fab fa-twitter-square fa-3x rounded-lg mx-3 text-white size-icon"
+                            data-toggle="tooltip" data-placement="bottom" title="Twitter"></i></a>
+                    <a href="https://www.facebook.com/alvaro.rivas.p" target="_blank"><i
+                            class="fab fa-facebook-square fa-3x rounded-lg text-white size-icon" data-toggle="tooltip"
+                            data-placement="bottom" title="Facebook"></i></a>
                 </div>
             </div>
         </div>
